@@ -1,0 +1,55 @@
+.site-layout-background {
+    background: #fff;
+  }
+  .content-page-layout{
+    background: #fff;
+    padding-top: 12rem;
+  }
+  .dashboard-header-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .div-container {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-gap: 10px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  /* @media only screen and (min-width: 768px) {
+    .div-container {
+      display: grid;
+      grid-template-columns: 15% 85%;
+      grid-gap: 10px;
+      background-color: #fff;
+      padding: 10px;
+    }
+  } */
+  .grid-row > div { 
+		border: 1px solid lightgrey;
+		padding: 10px;
+		background-color: aliceblue;
+		margin: 5px 0; 
+	}
+ui5-label {
+    display: block;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(119, 117, 117);
+  color: white;
+  text-align: center;
+}
+ui5-input {
+  width: 100%;
+}
+ui5-datepicker {
+  width: 100%;
+}
+ui5-select{
+  width: 100%;
+}

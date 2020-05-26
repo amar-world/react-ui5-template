@@ -1,0 +1,7 @@
+.label-for-input-top{
+    padding: 4.5px;
+}
+input, label {
+    display:block;
+}
+ 

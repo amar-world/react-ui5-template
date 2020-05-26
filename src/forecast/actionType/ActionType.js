@@ -1,0 +1,21 @@
+
+export const ACTION_TYPE = {
+    COMMON: {
+        GET_COMMON_DROPDOWN: 'GET_COMMON_DROPDOWN',
+    },
+    HEADER: {
+        GET_NAVIGATION_LIST: 'GET_NAVIGATION_LIST',
+    },
+    DASHBOARD: {
+        GET_DASHBOARD_LIST: 'GET_DASHBOARD_LIST',
+    },
+    PROJECT: {
+        GET_PROJECT_DETAIL: 'GET_PROJECT_DETAIL',
+    },
+    SPRINT: {
+        GET_SPRINT_DETAIL: 'GET_SPRINT_DETAIL',
+    },
+    STORY: {
+        GET_STORY_DETAIL: 'GET_STORY_DETAIL',
+    }
+}

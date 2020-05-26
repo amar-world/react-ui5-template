@@ -1,0 +1,13 @@
+.card-header-status{
+    float: right;
+    font-size: small;
+}
+.card-header-statusType{
+    padding:4px;
+    float: right;
+    font-size: xx-small;
+
+}
+.card-header-desc{
+    font-size: small;
+}
